@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "gulp watch",
     "build": "gulp",
+    "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +14,8 @@
   "description": "",
   "devDependencies": {
     "gulp": "^5.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-images": "^0.0.3",
     "gulp-sass": "^5.1.0",
     "sass": "^1.79.5"
   }
